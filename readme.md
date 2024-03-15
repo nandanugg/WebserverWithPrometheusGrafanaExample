@@ -6,7 +6,7 @@ This repository will showcase on how I implement metrics "*safely*" by preventin
 
 ## Known upsides and downsides
 - This way, we can prevent high cardinality by not sending the path values of an route (it will send `/:userId` instead of `/isfvDGFs` )
-- Not found routes and panics are not handled, but you can make one easily by using each web framework global error handling
+- Not found routes and panics metric are not handled, but you can make one easily by using each web framework global error handling
 - As I forsee, it requires more acrobatic unit test if you want to make one (my skill issue)
 
 ## Prerequisites
